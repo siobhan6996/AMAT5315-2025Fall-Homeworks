@@ -1,7 +1,17 @@
 # AMAT 5315 - Modern Scientific Computing: Homeworks
 
-## The workflow to set up the environment
-This tutorial is mainly based on macOS/Linux/WSL. If you encounter any problems, please feel free to ask for help in the [issue](https://github.com/CodingThrust/AMAT5315-2025Fall-Homeworks/issues), our Zulip channel, or wechat TA (Zhongyi Ni).
+![Course](https://img.shields.io/badge/Course-AMAT%205315-blue) ![Term](https://img.shields.io/badge/Term-2025%20Fall-green) ![Language](https://img.shields.io/badge/Language-Julia-purple)
+
+This repository contains homework assignments for AMAT 5315 - Modern Scientific Computing (Fall 2025). Follow the setup instructions below to get started with submitting your assignments.
+
+**Supported Platforms:** macOS, Linux, Windows (WSL)  
+**Need Help?** Contact us via [GitHub Issues](https://github.com/CodingThrust/AMAT5315-2025Fall-Homeworks/issues), Zulip, or WeChat TA (Zhongyi Ni)
+
+---
+
+## 🚀 Initial Setup (One-Time Only)
+
+### Step 1: Install Git and Create GitHub Account
 
 1. **Install Git**: Follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. **Create GitHub Account**: Sign up for a free account [here](https://github.com/signup)
@@ -68,9 +78,11 @@ This tutorial is mainly based on macOS/Linux/WSL. If you encounter any problems,
 
 ## 📝 Homework Submission Workflow
 
+> **📋 Quick Summary**: Create branch → Complete work → Commit → Push → Create PR → Address feedback (if any)
+
 Follow these steps for **every** homework assignment:
 
-### 1. Prepare Your Working Branch
+### 1. 🌿 Prepare Your Working Branch
 
 ```bash
 # Ensure you're on main branch and up-to-date
@@ -87,13 +99,13 @@ cd hw1/yourname
 
 > 💡 **Naming Convention**: Use `hwX/yourname` where `X` is the homework number and `yourname` is your name in lowercase (e.g., `hw1/zhongyini`)
 
-### 2. Complete Your Assignment
+### 2. 📝 Complete Your Assignment
 
 - Read the homework description in `hwX/README.md`
 - Complete all required tasks in your working directory
 - Test your solutions thoroughly
 
-### 3. Save Your Work
+### 3. 💾 Save Your Work
 
 ```bash
 # Add all your changes
@@ -106,7 +118,7 @@ git commit -m "Complete hw1: Add CPU info and Julia installation"
 git push -u origin hw1/yourname
 ```
 
-### 4. Create Pull Request
+### 4. 📤 Create Pull Request
 
 1. Go to your forked repository on GitHub
 2. Click **"Contribute"** → **"Open pull request"**
@@ -115,7 +127,7 @@ git push -u origin hw1/yourname
 4. **Description**: Briefly describe what you completed
 5. Click **"Create pull request"**
 
-### 5. Address Feedback (If Needed)
+### 5. 🔄 Address Feedback (If Needed)
 
 If you receive feedback from instructors or TAs:
 
@@ -131,15 +143,47 @@ git push
 
 The pull request will automatically update with your new changes.
 
-### 6. Grading
+### 6. 🎯 Grading & Deadlines
 
-Your homework will be graded after the PR is merged. The default deadline is 2 weeks after the homework is released. The submission order matters. The first one to submit the correct answer will get extra credit.
+- **⏰ Deadline**: 2 weeks after homework release
+- **🏆 Early Bird Bonus**: First correct submission gets extra credit
+- **✅ Grading**: Homework is graded after PR is merged
+
+---
+
+## 🔧 Common Issues & Quick Fixes
+
+**SSH Connection Problems:**
+```bash
+# Test your SSH connection
+ssh -T git@github.com
+
+# If it fails, check if your SSH key is added to GitHub
+# and try adding it to your SSH agent:
+ssh-add ~/.ssh/id_rsa
+```
+
+**Can't Push Changes:**
+```bash
+# Make sure you're on the right branch and pull first
+git status
+git pull origin hwX/yourname
+git push origin hwX/yourname
+```
+
+**Need to Update from Course Repository:**
+```bash
+git checkout main
+git pull upstream main
+git checkout hwX/yourname
+git merge main  # if you need the latest changes in your branch
+```
 
 ---
 
 ## 📚 Additional Resources
 
-- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
-- [GitHub Flow Guide](https://guides.github.com/introduction/flow/)
-- [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-- [Julia Documentation](https://docs.julialang.org/)
+- 📖 [Git Handbook](https://guides.github.com/introduction/git-handbook/) - Learn Git basics
+- 🔄 [GitHub Flow Guide](https://guides.github.com/introduction/flow/) - Understanding pull requests
+- 📝 [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - Format your documentation  
+- 🔬 [Julia Documentation](https://docs.julialang.org/) - Official Julia docs
