@@ -5,7 +5,7 @@
 This repository contains homework assignments for AMAT 5315 - Modern Scientific Computing (Fall 2025). Follow the setup instructions below to get started with submitting your assignments.
 
 **Supported Platforms:** macOS, Linux, Windows (WSL)  
-**Need Help?** Contact us via [GitHub Issues](https://github.com/CodingThrust/AMAT5315-2025Fall-Homeworks/issues), Zulip, or WeChat TA (Zhongyi Ni)
+**Need Help?** Contact us via [GitHub Issues](https://github.com/CodingThrust/AMAT5315-2025Fall-Homeworks/issues) or Zulip
 
 ---
 
