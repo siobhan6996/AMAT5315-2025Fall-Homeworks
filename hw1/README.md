@@ -23,7 +23,7 @@ Complete the following steps:
     ```bash
     scp group1@10.100.0.179:zhongyini/lscpu.txt path/to/your/local/working/directory
     ```
-4. (sample submission) As an example, your final submission should be like: https://github.com/CodingThrust/AMAT5315-2025Spring-Homeworks/pull/2
+4. (sample submission) As an example, your final submission should be like: https://github.com/CodingThrust/AMAT5315-2025Fall-Homeworks/pull/1
 
 To submit your homework, please follow the instructions in the [README.md](../README.md) file.
 
