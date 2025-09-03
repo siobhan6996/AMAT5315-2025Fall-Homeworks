@@ -18,7 +18,7 @@ This repository contains homework assignments for AMAT 5315 - Modern Scientific 
 
 ### Step 2: Generate SSH Key
 
-1. **Generate the key**:
+1. **Generate the key (Replace with your email)**:
    ```bash
    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
    ```
@@ -32,7 +32,7 @@ This repository contains homework assignments for AMAT 5315 - Modern Scientific 
    Copy the entire output (starts with `ssh-rsa`)
 
 3. **Add to GitHub**:
-   - Go to GitHub → Profile → Settings → SSH and GPG keys
+   - Go to GitHub → Profile (Your avatar) → Settings → SSH and GPG keys
    - Click "New SSH key"
    - Paste your key and give it a descriptive title
    - Click "Add SSH key"
