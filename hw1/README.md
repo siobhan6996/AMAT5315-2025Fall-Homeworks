@@ -8,7 +8,7 @@ Complete the following steps:
    1. Username: `group1`
    2. Password: `1`
    3. Server IP address: `10.100.0.179`
-2. (run task) Create a directory with your name in the home directory of the remote server and then change the directory to the created one, e.g. if your name is `Zhong-Yi NI`, then the directory is `zhongyini`.
+2. (run task) Create a directory with your name in your home directory (the default directory after you logged in) of the remote server and then change the directory to the created one, e.g. if your name is `Zhong-Yi NI`, then the directory is `zhongyini`.
     ```bash
     mkdir zhongyini
     cd zhongyini
