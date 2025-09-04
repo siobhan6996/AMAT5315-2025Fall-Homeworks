@@ -32,7 +32,7 @@ This repository contains homework assignments for AMAT 5315 - Modern Scientific 
    Copy the entire output (starts with `ssh-rsa`)
 
 3. **Add to GitHub**:
-   - Go to GitHub → Profile (Your avatar) → Settings → SSH and GPG keys
+   - Go to GitHub → Click your avatar → Settings → SSH and GPG keys
    - Click "New SSH key"
    - Paste your key and give it a descriptive title
    - Click "Add SSH key"
