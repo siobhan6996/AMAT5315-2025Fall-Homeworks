@@ -73,7 +73,7 @@ Learn to measure and analyze performance in Julia.
 
     **Tasks:**
     1. Implement all three functions
-    2. Create test vector: `x = randn(10_000)`
+    2. Create test vector: `x = randn(10000)`
     3. Benchmark each function using `@btime`
     4. Which approach is fastest? Explain why (2-3 sentences)
 
