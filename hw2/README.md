@@ -57,17 +57,17 @@ Learn to measure and analyze performance in Julia.
 
     # Version 1: Simple loop
     function sum_squares_loop(x::Vector{Float64})
-        # Implement using for loop
+        # TODO
     end
 
     # Version 2: Using sum and anonymous function
     function sum_squares_functional(x::Vector{Float64})
-        # Implement: sum(xi -> xi^2, x)
+        # TODO
     end
 
     # Version 3: Using broadcasting
     function sum_squares_broadcast(x::Vector{Float64})
-        # Implement: sum(x .^ 2)
+        # TODO
     end
     ```
 
