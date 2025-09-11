@@ -96,7 +96,7 @@ Learn to measure and analyze performance in Julia.
     **Tasks:**
     1. Use `@code_warntype unstable_function(10)` to see type instability
     2. Rewrite the function to be type-stable
-    3. Benchmark both versions and compare performance
+    3. Benchmark both versions with large n and compare performance
 
 ## Task 3: Basic Array Operations
 Practice fundamental array operations that are commonly used in Julia.
@@ -126,13 +126,13 @@ Practice fundamental array operations that are commonly used in Julia.
     ```julia
     # Function 1: Apply operation to each element
     function apply_function(x::Vector{Float64})
-        # Return: sin(x) + cos(2*x) for each element
+        # Return: a vector whose ith entry is sin(x_i) + cos(2*x_i)
         # Use broadcasting (dot notation)
     end
 
     # Function 2: Matrix-scalar operations
     function matrix_transform(A::Matrix{Float64}, c::Float64)
-        # Return: (A + c) .* 2 - 1
+        # Return: a matrix whose (i,j)-entry is (A_ij + c) * 2 - 1
         # Apply this transformation element-wise
     end
 
